@@ -8,6 +8,8 @@ your program should print 50, 30 and 23.
 Time complexity: O(nlogn)
 */
 
+//Approach1
+
 import java.util.Arrays;
 import java.util.Collections;
 
@@ -32,4 +34,8 @@ public class KLargestElementInAnArray {
     }
 }
 
-//
+// Approach2
+//We can use minHeap()
+/*
+
+ */

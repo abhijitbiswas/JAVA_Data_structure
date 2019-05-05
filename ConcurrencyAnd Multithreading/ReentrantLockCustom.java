@@ -11,7 +11,7 @@ import java.util.concurrent.locks.*;
 /*
 Same like custom Lock interface we have created
  */
-interface LockCustom1 {
+interface LockCustom {
     void lock();
     void unlock();
     boolean tryLock();
@@ -20,7 +20,7 @@ interface LockCustom1 {
 }
 
 
-public class ReentrantLockCustom implements LockCustom1 {
+public class ReentrantLockCustom implements LockCustom {
     int lockHoldCount;
     //Id of thread which is currently holding the lock.
     long IdOfThreadCurrentlyHoldingLock;
